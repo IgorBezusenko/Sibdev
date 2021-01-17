@@ -269,8 +269,6 @@ ul {
   }
 
   .header__title h1 {
-    /*display: none;*/
-
     font-size: 28px;
     line-height: 38px;
     text-align: right;
@@ -423,6 +421,15 @@ ul {
   }
   .sidebar {
     min-width: 12px;
+  }
+  .sidebar.active {
+    min-width: 192px;
+  }
+  .list__item {
+    padding-left: 16px;
+  }
+  .list__item:hover {
+    padding-left: 13px;
   }
   .list__icon.active {
     display: none;
